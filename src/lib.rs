@@ -5,8 +5,8 @@ fn round(val: f64) -> f64 {
 }
 
 pub struct Location {
-    lat: f64,
-    lon: f64,
+    pub lat: f64,
+    pub lon: f64,
 }
 
 pub fn haversine(start: &Location, end: &Location) -> f64 {
